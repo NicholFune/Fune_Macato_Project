@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fune_Macato_Project</string>
+    <string name="title_activity_fishing_etiquette">FishingEtiquette</string>
+    <string name="fishing_guidebook">Fishing Guidebook</string>
+    <string name="how_to_fish">How to Fish</string>
+    <string name="equipment">Equipment</string>
+    <string name="fishing_etiquette">Fishing Etiquette</string>
+    <string name="unsafe_fishing">Unsafe Fishing</string>
+    <string name="about_us">About Us</string>
+</resources>
