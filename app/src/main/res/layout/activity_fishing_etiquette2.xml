@@ -1,9 +1,171 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FishingEtiquette">
 
-</android.support.constraint.ConstraintLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/fishing_etiquette"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingStart="10sp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="10dp"
+                android:text="@string/_1_leave_no_trace"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/this_mantra_was_originally_developed_by_the_us_forest_service_as_a_motto_for_campers_but_it_s_equally_applicable_on_the_water_try_to_minimize_your_presence_while_fishing_by_not_littering_policing_your_used_plastics_and_line_and_preventing_damage_to_the_waters_as_tempting_as_it_may_be_to_cut_branches_off_a_dead_tree_to_access_new_water_doing_so_would_remove_habitat_and_set_a_precedent_that_others_may_follow_if_it_wasn_t_there_when_you_got_on_the_water_it_shouldn_t_be_there_when_you_leave"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="10dp"
+                android:text="@string/_2_be_a_conscientious_launcher"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/boat_ramps_are_busy_enough_in_the_summer_months_don_t_compound_that_by_being_an_inconsiderate_launcher_prepare_your_boat_for_launching_prior_to_moving_onto_the_ramp_and_once_loaded_quickly_move_away_from_the_crowd_to_wipe_it_down_and_prepare_it_for_the_road_if_you_re_picking_up_a_friend_or_co_angler_arrange_to_do_it_at_a_gas_station_or_nearby_lot_so_you_re_not_waiting_around_blocking_traffic" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/_3_pay_attention_to_your_wake"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingTop="5dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/although_no_wake_laws_are_in_place_across_many_waters_of_this_country_they_aren_t_the_only_places_to_mind_your_wake_if_you_are_in_close_proximity_to_recreational_anglers_kayakers_canoeists_or_even_people_swimming_pay_attention_and_reduce_your_speed_to_show_respect_for_their_pursuits_this_can_be_justifiably_frustrating_in_a_tournament_situation_but_remember_how_you_act_on_the_water_affects_how_folks_perceive_fishermen_as_a_whole" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="10dp"
+                android:text="@string/_4_don_t_be_a_bent_rod_angler"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/this_is_something_that_has_become_particularly_common_among_anglers_that_haven_t_experienced_grinding_out_the_hours_it_takes_to_find_good_fishing_locations_give_other_anglers_a_wide_berth_while_on_the_water_and_ask_if_it_is_ok_to_pass_them_or_fish_in_areas_close_to_where_they_are_fishing_even_if_they_are_fishing_for_some_other_species_there_is_almost_no_scenario_where_the_fish_are_only_biting_in_one_area_so_pulling_up_on_someone_else_s_spot_will_usually_only_cause_an_ugly_confrontation" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/_5_take_care_of_your_fish"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/good_fishing_etiquette_is_also_about_taking_care_of_the_resource_and_waste_not_want_not_applies_on_the_water_as_well_if_you_re_keeping_fish_only_take_what_you_can_eat_regardless_of_the_limit_if_you_re_in_a_tournament_setting_make_sure_to_take_care_of_your_fish_to_minimize_their_time_spent_out_of_the_water_and_use_a_good_quality_landing_net_to_prevent_damage_to_their_slime_coat"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="10dp"
+                android:text="@string/_6_you_re_not_the_only_one_on_the_water"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/it_s_easy_to_consider_the_water_from_only_a_fisherman_s_perspective_but_there_are_many_other_people_that_use_the_water_for_different_reasons_like_recreational_boating_skiing_swimming_or_even_just_pristine_viewing_of_the_lake_although_different_their_needs_and_goals_are_just_as_important_to_them_as_your_need_to_catch_fish_if_an_area_is_no_wake_it_s_probably_that_way_for_a_reason_if_a_landowner_asks_you_politely_to_try_and_avoid_snagging_your_lure_on_their_dock_be_respectful_we_are_fortunate_to_have_the_resources_we_do_and_understanding_other_folks_needs_will_help_you_enjoy_yourself_more_on_the_water"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button9"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="process"
+                    android:text="@string/home" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>

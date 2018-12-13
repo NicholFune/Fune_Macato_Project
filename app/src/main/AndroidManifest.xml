@@ -29,7 +29,13 @@
         <activity
             android:name=".Equipment"
             android:label="Equipment" />
-        <activity android:name=".FishingEtiquette" android:label="Fishing Etiquette"></activity>
+        <activity
+            android:name=".FishingEtiquette"
+            android:label="Fishing Etiquette" />
+        <activity
+            android:name=".PreparingToFish"
+            android:label="Preparing to Fish" />
+        <activity android:name=".GoingFishing"></activity>
     </application>
 
 </manifest>

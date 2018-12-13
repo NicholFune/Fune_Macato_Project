@@ -1,9 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".UnsafeFishing">
 
-</android.support.constraint.ConstraintLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/unsafe_fishing"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/many_fishing_practices_are_destructive_to_delicate_habitats_particularly_vital_fish_breeding_grounds_like_coral_reefs_and_seagrass_meadows"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingStart="10sp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="10dp"
+                android:text="@string/bottom_trawling"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/industrial_trawlers_once_avoided_coral_reefs_and_other_rocky_regions_of_the_ocean_floor_because_their_nets_would_snag_and_tear_but_the_introduction_of_rockhopper_trawls_in_the_1980s_changed_this_the_largest_with_heavy_rollers_over_75cm_in_diameter_are_very_powerful_capable_of_moving_boulders_weighing_25_tonnes_now_most_of_the_ocean_floor_can_be_trawled_down_to_a_depth_of_2_000m_in_heavily_fished_areas_around_coral_seamounts_off_southern_australia_for_example_90_of_the_surfaces_where_coral_used_to_grow_are_now_bare_rock_like_removing_forest_removing_this_cover_decreases_the_area_available_for_marine_species_to_live_and_thrive_in"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="10dp"
+                android:text="@string/cyanide_fishing"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/in_this_technique_fishers_squirt_sodium_cyanide_into_the_water_to_stun_fish_without_killing_them_making_them_easy_to_catch_cyanide_fishing_on_coral_reefs_began_in_the_1960s_to_supply_the_international_aquarium_trade_but_since_the_early_1980s_supplying_live_reef_fish_for_the_restaurants_of_hong_kong_singapore_and_increasingly_mainland_china_is_a_much_more_profitable_business_some_20_000_tonnes_of_live_fish_are_eaten_annually_in_the_restaurants_of_hong_kong_and_for_every_live_fish_caught_using_cyanide_a_square_metre_of_their_coral_reef_home_is_killed" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="10dp"
+                android:text="@string/dynamite_fishing"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/in_this_technique_dynamite_or_other_explosives_are_set_off_under_water_the_dead_fish_floating_to_the_surface_are_then_simply_scooped_up_the_explosives_completely_destroy_the_underwater_environment_leaving_it_as_rubble_dynamite_fishing_has_contributed_to_massive_destruction_of_for_example_southeast_asian_coral_reefs_over_the_past_20_years" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="10dp"
+                android:text="@string/ghost_fishing"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/ghost_fishing_occurs_when_fishing_gear_is_lost_or_abandoned_at_sea_the_gear_can_continue_to_catch_fish_dolphins_whales_turtles_and_other_creatures_as_it_drifts_through_the_water_and_after_it_becomes_snagged_on_the_seabed_when_driftnets_were_used_on_the_high_seas_an_estimated_1_000km_of_ghost_nets_were_released_each_year_into_the_north_pacific_ocean_alone" />
+
+            <LinearLayout
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button9"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="process"
+                    android:text="@string/home" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>
