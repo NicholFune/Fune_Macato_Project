@@ -217,6 +217,7 @@
                     android:layout_width="175dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
+                    android:gravity="center_vertical|center_horizontal|center"
                     android:onClick="process"
                     android:text="@string/back" />
 
@@ -226,6 +227,7 @@
                     android:layout_width="175dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
+                    android:gravity="center_vertical|center_horizontal|center"
                     android:onClick="process"
                     android:text="@string/home" />
             </LinearLayout>
