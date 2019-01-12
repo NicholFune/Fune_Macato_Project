@@ -16,10 +16,10 @@ public class GoingFishing extends AppCompatActivity {
     public void process(View v) {
         Intent i = null, chooser = null;
         if (v.getId() == R.id.button8) {
-            i = new Intent(this, HowToFish.class);
+            i = new Intent(this, Menu.class);
             startActivity(i);
         } else if (v.getId() == R.id.button9) {
-            i = new Intent(this, Menu.class);
+            i = new Intent(this, going_fishing_2.class);
             startActivity(i);
         }
     }

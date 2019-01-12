@@ -1,237 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".PreparingToFish">
 
-    <android.support.v4.widget.NestedScrollView
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/preparing_to_fish"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/_1_research_areas_for_fishing"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingStart="10sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/there_are_plenty_of_fish_in_the_sea_but_finding_the_right_area_could_mean_more_specific_catches_better_catching_probability_or_even_a_friendlier_community_to_help_enjoy_the_trip" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:paddingStart="10sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/for_people_who_live_on_the_coast_saltwater_fishing_is_an_easy_pick_for_them_they_will_probably_already_have_several_poplar_sites_around_them_generally_the_most_popular_among_them_would_be_a_great_place_to_start_as_it_would_have_the_most_community_built_around_it_as_well_as_contain_a_probable_good_fish_population"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:paddingStart="10sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/for_the_more_landlocked_areas_finding_a_spot_may_just_involve_asking_around_with_locals_or_at_fishing_shops_of_any_kind_people_who_regularly_fish_tend_to_be_very_friendly_and_eager_to_show_what_they_know_to_beginners"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="0dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="0dp"
-        android:fillViewport="true">
+        android:gravity="bottom|center"
+        android:orientation="horizontal">
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <Button
+            android:id="@+id/button8"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_margin="10dp"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:onClick="process"
+            android:text="@string/back" />
 
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:gravity="center_vertical|center_horizontal"
-                android:text="@string/preparing_to_fish"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+        <Button
+            android:id="@+id/button9"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="process"
+            android:text="@string/next" />
+    </LinearLayout>
 
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:paddingStart="10sp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:text="@string/_1_research_areas_for_fishing"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="match_parent"
-                android:layout_height="228dp"
-                android:contentDescription="@string/todo"
-                app:srcCompat="@drawable/fishing" />
-
-            <TextView
-                android:id="@+id/textView5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingStart="10sp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:text="@string/there_are_plenty_of_fish_in_the_sea_but_finding_the_right_area_could_mean_more_specific_catches_better_catching_probability_or_even_a_friendlier_community_to_help_enjoy_the_trip" />
-
-            <TextView
-                android:id="@+id/textView6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingStart="10sp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:text="@string/for_people_who_live_on_the_coast_saltwater_fishing_is_an_easy_pick_for_them_they_will_probably_already_have_several_poplar_sites_around_them_generally_the_most_popular_among_them_would_be_a_great_place_to_start_as_it_would_have_the_most_community_built_around_it_as_well_as_contain_a_probable_good_fish_population"
-                android:textStyle="italic" />
-
-            <TextView
-                android:id="@+id/textView7"
-                android:layout_width="match_parent"
-                android:layout_height="95dp"
-                android:paddingStart="10sp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:text="@string/for_the_more_landlocked_areas_finding_a_spot_may_just_involve_asking_around_with_locals_or_at_fishing_shops_of_any_kind_people_who_regularly_fish_tend_to_be_very_friendly_and_eager_to_show_what_they_know_to_beginners"
-                android:textStyle="italic" />
-
-            <TextView
-                android:id="@+id/textView8"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:text="@string/_2_investigate_good_times_to_go_fishing"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="match_parent"
-                android:layout_height="228dp"
-                android:contentDescription="@string/todo"
-                app:srcCompat="@drawable/dusk" />
-
-            <TextView
-                android:id="@+id/textView9"
-                android:layout_width="match_parent"
-                android:layout_height="90dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:text="@string/after_you_ve_found_a_place_the_timing_should_be_accounted_for_as_well_for_example_plenty_of_people_tend_to_fish_around_dawn_or_dusk_as_these_are_peak_feeding_times_for_fish" />
-
-            <TextView
-                android:id="@+id/textView11"
-                android:layout_width="match_parent"
-                android:layout_height="58dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:text="@string/_3_make_sure_you_have_the_permissions_needed"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="match_parent"
-                android:layout_height="228dp"
-                android:contentDescription="@string/todo"
-                app:srcCompat="@drawable/permit" />
-
-            <TextView
-                android:id="@+id/textView12"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:text="@string/localized_fishing_licenses_are_required_in_order_to_fish_and_take_your_catch_home_these_licenses_can_be_obtained_from_local_department_of_fish_and_wildlife_centers" />
-
-            <TextView
-                android:id="@+id/textView13"
-                android:layout_width="match_parent"
-                android:layout_height="89dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:text="@string/however_many_more_private_or_commercial_fishing_areas_exist_where_admission_is_charged_in_order_to_enter_and_fish_these_such_places_include_that_permission_within_their_cost_making_them_cheaper_than_a_license_for_occasional_trips"
-                android:textStyle="italic" />
-
-            <TextView
-                android:id="@+id/textView14"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:text="@string/_4_grab_the_right_reel_and_rod_for_you"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <ImageView
-                android:id="@+id/imageView4"
-                android:layout_width="match_parent"
-                android:layout_height="228dp"
-                android:contentDescription="@string/todo"
-                app:srcCompat="@drawable/rod" />
-
-            <TextView
-                android:id="@+id/textView15"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:text="@string/as_long_as_the_line_is_medium_in_length_and_flexible_it_should_do_fine_for_beginners_for_now_these_details_shouldn_t_concern_you_too_much_until_you_enjoy_the_sport_are_familiar_with_it_and_are_ready_to_invest_in_better_equipment_for_now_the_basics_will_do_just_fine" />
-
-            <TextView
-                android:id="@+id/textView16"
-                android:layout_width="match_parent"
-                android:layout_height="108dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:text="@string/prices_will_vary_but_getting_the_rod_from_a_regular_big_box_retailer_would_probably_do_you_much_more_than_going_to_a_specialty_store_try_to_get_a_bundle_that_comes_with_its_own_reel_and_tackle_box_as_you_can_use_these_to_learn_which_tools_you_want_to_use_continuously"
-                android:textStyle="italic" />
-
-            <TextView
-                android:id="@+id/textView17"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:text="@string/_5_prepare_your_bait"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="match_parent"
-                android:layout_height="228dp"
-                android:contentDescription="@string/todo"
-                app:srcCompat="@drawable/bait" />
-
-            <TextView
-                android:id="@+id/textView18"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:text="@string/as_for_bait_live_fake_and_dead_bait_are_all_options_for_you_to_buy_these_are_all_fine_for_now_as_you_will_eventually_learn_how_to_use_other_tools_to_catch_your_own_bait_later_in_addition_it_is_useful_to_get_over_any_squeamishness_on_dead_bait_before_you_move_on_to_live_bait" />
-
-            <TextView
-                android:id="@+id/textView19"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:text="@string/if_you_are_going_to_be_using_live_bait_be_aware_of_the_need_to_contain_them_in_some_sort_of_storage_and_keep_them_alive_by_either_cycling_water_within_the_storage_or_using_an_air_pump_to_pump_oxygen_back_into_the_water_otherwise_the_bait_will_die_in_several_minutes"
-                android:textStyle="italic" />
-
-            <LinearLayout
-                style="?android:attr/buttonBarStyle"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <Button
-                    android:id="@+id/button8"
-                    style="?android:attr/buttonBarButtonStyle"
-                    android:layout_width="175dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:gravity="center_vertical|center_horizontal|center"
-                    android:onClick="process"
-                    android:text="@string/back" />
-
-                <Button
-                    android:id="@+id/button9"
-                    style="?android:attr/buttonBarButtonStyle"
-                    android:layout_width="175dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:gravity="center_vertical|center_horizontal|center"
-                    android:onClick="process"
-                    android:text="@string/home" />
-            </LinearLayout>
-
-        </LinearLayout>
-    </android.support.v4.widget.NestedScrollView>
-</RelativeLayout>
+</LinearLayout>

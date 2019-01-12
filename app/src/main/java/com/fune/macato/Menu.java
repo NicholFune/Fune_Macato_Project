@@ -25,9 +25,6 @@ public class Menu extends AppCompatActivity {
         } else if (v.getId() == R.id.button2) {
             i = new Intent(this, FishingEtiquette.class);
             startActivity(i);
-        } else if (v.getId() == R.id.button4) {
-            i = new Intent(this, UnsafeFishing.class);
-            startActivity(i);
         } else if (v.getId() == R.id.button5) {
             i = new Intent(this, AboutUs.class);
             startActivity(i);

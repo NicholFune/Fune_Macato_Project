@@ -19,21 +19,23 @@
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="160dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="214dp"
         android:onClick="process"
-        android:text="@string/preparing_to_fish" />
+        android:text="@string/step_1_preparing_to_fish"
+        android:textAllCaps="false" />
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="160dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="162dp"
         android:onClick="process"
-        android:text="@string/going_fishing" />
+        android:text="@string/step_2_going_fishing"
+        android:textAllCaps="false" />
 </RelativeLayout>

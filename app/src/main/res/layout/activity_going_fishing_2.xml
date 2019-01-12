@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".GoingFishing">
+    tools:context=".going_fishing_2">
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView18"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -18,47 +18,23 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView43"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingStart="10sp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="@string/_1_prepare_your_line"
+        android:text="@string/_2_cast_the_line"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView44"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:paddingStart="10sp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="@string/preparing_your_line_with_the_appropriate_bait_and_tools_can_take_some_time_to_learn_as_different_items_have_different_uses_and_knowing_which_to_use_takes_some_familiarity_with_their_effects_on_the_line" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:paddingStart="10sp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="@string/tying_the_knots_in_lines_may_require_some_certain_special_kinds_of_knots_a_basic_one_that_is_useful_to_learn_as_well_as_easy_is_the_j_knot_which_can_be_best_learned_with_a_short_supplemental_video_tutorial_search_sinkers_or_weights_are_used_to_give_the_line_more_inertia_against_currents_in_order_to_sop_your_hook_from_just_floating_on_the_surface"
-        android:textStyle="italic" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:paddingStart="10sp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="@string/bobbers_are_used_for_visibly_seeing_your_line_and_any_potential_bites_tugging_down_on_it_baiting_a_hook_may_not_be_the_most_pleasant_task_but_bait_should_usually_be_hooked_several_times_for_security_however_it_should_look_natural_as_animals_would_not_aim_for_dead_looking_fish_and_like_to_only_bite_live_looking_bait"
-        android:textStyle="italic" />
+        android:text="@string/for_both_the_main_types_of_reels_the_technique_is_the_same_both_reels_have_a_locked_and_released_phase_for_its_line_the_general_technique_is_to_unlock_the_line_and_hold_it_with_your_fingers_and_then_swing_your_rod_in_an_arc_letting_go_of_the_line_at_the_peak_of_the_arc_the_momentum_should_cause_the_hook_if_it_s_heavy_enough_to_fly_as_it_sinks_the_line_should_be_locked_as_to_not_let_the_string_fall_loose_around_the_real_or_to_let_a_fish_just_walk_away_with_your_hook" />
 
     <LinearLayout
         style="?android:attr/buttonBarStyle"

@@ -21,21 +21,41 @@
             android:name=".HowToFish"
             android:label="How To Fish" />
         <activity
-            android:name=".UnsafeFishing"
-            android:label="Unsafe Fishing" />
-        <activity
             android:name=".AboutUs"
             android:label="About Us" />
         <activity
             android:name=".Equipment"
-            android:label="Equipment" />
+            android:label="Fishing Tackle Box" />
         <activity
             android:name=".FishingEtiquette"
             android:label="Fishing Etiquette" />
         <activity
             android:name=".PreparingToFish"
             android:label="Preparing to Fish" />
-        <activity android:name=".GoingFishing"></activity>
+        <activity android:name=".GoingFishing" android:label="Going Fishing"/>
+        <activity android:name=".preparing_to_fish_2" android:label="Preparing to Fish"/>
+        <activity android:name=".preparing_to_fish_3" android:label="Preparing to Fish"/>
+        <activity android:name=".preparing_to_fish_4" android:label="Preparing to Fish"/>
+        <activity android:name=".preparing_to_fish_5" android:label="Preparing to Fish"/>
+        <activity android:name=".going_fishing_2" android:label="Going Fishing"/>
+        <activity android:name=".going_fishing_3" android:label="Going Fishing"/>
+        <activity android:name=".going_fishing_4" android:label="Going Fishing"/>
+        <activity android:name=".fishing_etiquette_2" android:label="Fishing Etiquette"/>
+        <activity android:name=".fishing_etiquette_3" android:label="Fishing Etiquette"/>
+        <activity android:name=".fishing_etiquette_4" android:label="Fishing Etiquette"/>
+        <activity android:name=".fishing_etiquette_5" android:label="Fishing Etiquette"/>
+        <activity android:name=".fishing_etiquette_1" android:label="Fishing Etiquette"/>
+        <activity android:name=".fishing_etiquette_6" android:label="Fishing Etiquette"/>
+        <activity android:name=".tacklebox1" android:label="Fishing Tackle Box"/>
+        <activity android:name=".tacklebox2" android:label="Fishing Tackle Box"/>
+        <activity android:name=".tacklebox3" android:label="Fishing Tackle Box"/>
+        <activity android:name=".tacklebox4" android:label="Fishing Tackle Box"/>
+        <activity android:name=".tacklebox5" android:label="Fishing Tackle Box"/>
+        <activity android:name=".tacklebox6" android:label="Fishing Tackle Box"/>
+        <activity android:name=".tacklebox7" android:label="Fishing Tackle Box"/>
+        <activity android:name=".tacklebox8" android:label="Fishing Tackle Box"/>
+        <activity android:name=".tacklebox9" android:label="Fishing Tackle Box"/>
+        <activity android:name=".tacklebox10" android:label="Fishing Tackle Box"></activity>
     </application>
 
 </manifest>

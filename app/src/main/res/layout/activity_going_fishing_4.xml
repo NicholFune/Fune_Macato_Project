@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".GoingFishing">
+    tools:context=".going_fishing_4">
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView56"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -18,46 +18,23 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView57"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingStart="10sp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="@string/_1_prepare_your_line"
+        android:text="@string/_4_decide_what_to_do_with_your_fish"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView58"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:paddingStart="10sp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="@string/preparing_your_line_with_the_appropriate_bait_and_tools_can_take_some_time_to_learn_as_different_items_have_different_uses_and_knowing_which_to_use_takes_some_familiarity_with_their_effects_on_the_line" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:paddingStart="10sp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="@string/tying_the_knots_in_lines_may_require_some_certain_special_kinds_of_knots_a_basic_one_that_is_useful_to_learn_as_well_as_easy_is_the_j_knot_which_can_be_best_learned_with_a_short_supplemental_video_tutorial_search_sinkers_or_weights_are_used_to_give_the_line_more_inertia_against_currents_in_order_to_sop_your_hook_from_just_floating_on_the_surface"
-        android:textStyle="italic" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:paddingStart="10sp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="@string/bobbers_are_used_for_visibly_seeing_your_line_and_any_potential_bites_tugging_down_on_it_baiting_a_hook_may_not_be_the_most_pleasant_task_but_bait_should_usually_be_hooked_several_times_for_security_however_it_should_look_natural_as_animals_would_not_aim_for_dead_looking_fish_and_like_to_only_bite_live_looking_bait"
+        android:text="@string/once_a_fish_is_caught_what_to_do_with_it_is_only_somewhat_up_to_you_releasing_it_back_is_always_an_option_but_in_order_to_keep_the_catch_some_further_identification_is_required_there_are_size_and_species_regulations_that_should_be_explained_to_you_as_you_get_your_license_that_require_you_to_release_some_fish_depending_on_their_age_determined_by_size_and_species_if_you_are_keeping_the_fish_the_appropriate_containers_should_be_accounted_for"
         android:textStyle="italic" />
 
     <LinearLayout
@@ -84,6 +61,6 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:onClick="process"
-            android:text="@string/next" />
+            android:text="@string/home" />
     </LinearLayout>
 </LinearLayout>

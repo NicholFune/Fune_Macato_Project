@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".GoingFishing">
+    tools:context=".going_fishing_3">
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView45"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -18,46 +18,32 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView46"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingStart="10sp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="@string/_1_prepare_your_line"
+        android:text="@string/_3_wait_for_a_fish"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView51"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:paddingStart="10sp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="@string/preparing_your_line_with_the_appropriate_bait_and_tools_can_take_some_time_to_learn_as_different_items_have_different_uses_and_knowing_which_to_use_takes_some_familiarity_with_their_effects_on_the_line" />
+        android:text="@string/patience_is_a_well_known_attribute_to_fishing_but_is_a_bit_exaggerated_don_t_be_impatient_with_your_rod_after_about_leaving_it_for_about_15_minutes_it_is_a_good_idea_to_take_it_out_and_recast_it_it_may_need_to_be_baited_again_so_leaving_it_in_longer_than_that_could_be_a_waste_of_time" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/textView52"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
-        android:paddingStart="10sp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="@string/tying_the_knots_in_lines_may_require_some_certain_special_kinds_of_knots_a_basic_one_that_is_useful_to_learn_as_well_as_easy_is_the_j_knot_which_can_be_best_learned_with_a_short_supplemental_video_tutorial_search_sinkers_or_weights_are_used_to_give_the_line_more_inertia_against_currents_in_order_to_sop_your_hook_from_just_floating_on_the_surface"
-        android:textStyle="italic" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:paddingStart="10sp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="@string/bobbers_are_used_for_visibly_seeing_your_line_and_any_potential_bites_tugging_down_on_it_baiting_a_hook_may_not_be_the_most_pleasant_task_but_bait_should_usually_be_hooked_several_times_for_security_however_it_should_look_natural_as_animals_would_not_aim_for_dead_looking_fish_and_like_to_only_bite_live_looking_bait"
+        android:text="@string/getting_used_to_how_tugs_feel_will_take_some_time_as_smaller_fish_tugs_may_act_differently_but_be_the_same_strength_as_the_waves_or_the_wind_on_your_sinker_or_line_when_you_feel_a_tug_your_first_instinct_should_be_pulling_your_rod_upwards_pushing_the_hook_further_into_the_catch_this_functions_as_to_secure_the_hook_in_the_fish_reeling_in_the_line_should_not_just_be_done_with_only_the_reel_the_reel_may_not_be_strong_enough_to_pull_in_the_larger_fish_appropriate_reeling_requires_the_fisherman_to_pull_back_the_rod_and_reel_in_the_slack_created_by_the_pull_doing_this_repeatedly_ensures_the_fight_to_pull_on_the_rod_itself_and_not_the_small_reel"
         android:textStyle="italic" />
 
     <LinearLayout

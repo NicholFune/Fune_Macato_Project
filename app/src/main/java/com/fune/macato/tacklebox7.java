@@ -5,21 +5,18 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class PreparingToFish extends AppCompatActivity {
+public class tacklebox7 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_preparing_to_fish);
+        setContentView(R.layout.activity_tacklebox7);
     }
 
     public void process(View v) {
         Intent i = null, chooser = null;
         if (v.getId() == R.id.button8) {
-            i = new Intent(this, Menu.class);
-            startActivity(i);
-        } else if (v.getId() == R.id.button9) {
-            i = new Intent(this, preparing_to_fish_2.class);
+            i = new Intent(this, Equipment.class);
             startActivity(i);
         }
     }
